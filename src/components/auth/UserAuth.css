@@ -1,0 +1,23 @@
+.socialIcon {
+  width: 40px;
+  height: 40px;
+}
+.iconContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 0px;
+}
+.pointerText {
+  cursor: pointer !important;
+}
+.borderLine {
+  border-bottom: 1px dashed #beb4b4;
+  margin: 20px 0px;
+}
+.borderLine::after {
+  content: "OR";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #beb4b4;
+}

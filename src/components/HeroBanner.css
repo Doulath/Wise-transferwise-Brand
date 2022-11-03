@@ -1,0 +1,23 @@
+.heroContainer{
+    background-image: url('../background.svg');
+    height: 100vh;
+}
+.stepperLinesDot{
+    list-style: disc !important;
+}
+.bankSaving{
+    color: white;
+}
+
+.btn-block {
+    background-color: green;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.getStartedCta{
+    width: 70% !important;
+}
+.currencyInput{
+    height: 60px !important;
+}
